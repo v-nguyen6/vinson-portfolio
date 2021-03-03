@@ -3,6 +3,10 @@
 
 // Google Fonts - Import
 @import url("https://use.typekit.net/jbp8oya.css");
+/* import google fonts (Montserat)*/ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* import google fonts (biorhyme)*/ 
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap');
 
 // Settings
 @import "./base/settings";
@@ -12,8 +16,10 @@
 
 // Components
 @import "./components/_about.scss";
-@import "./components/_card.scss";
+@import "./components/_app.scss";
+@import "./components/_cards.scss";
 @import "./components/_contact.scss";
+@import "./components/_footer.scss";
 @import "./components/_header.scss";
 @import "./components/_navbar.scss";
-@import "./components/_services.scss";
+@import "./components/_works.scss";

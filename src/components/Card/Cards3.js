@@ -1,7 +1,7 @@
 import React from 'react';
 
 // make sure to add props to the function
-function Cards(props) {
+function Cards3(props) {
     return (
         <div className="work-box">
             {/*Image*/}
@@ -14,14 +14,12 @@ function Cards(props) {
 
             {/*Description*/}
             <div className="work-box-text">
-              <a href="#">
                 {props.sdescription}
-              </a>
             </div>
 
             {/*Buttons*/}
             <div className="work-box-buttons">
-              <a href="#" className="work-btn-1">View Github</a>
+              <a href="https://github.com/v-nguyen6/twd_capstone_project" className="work-btn-1">View Github</a>
               <a href="#" className="work-btn-1">Learn More</a>
             </div>
 
@@ -29,4 +27,4 @@ function Cards(props) {
     )
 }
 
-export default Cards
+export default Cards3

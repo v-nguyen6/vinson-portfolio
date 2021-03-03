@@ -1,0 +1,107 @@
+/* 
+-----------------------------------------
+Media Queries
+-----------------------------------------
+*/
+
+.work-box {
+  background-color: #333646;
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+work-box-img {
+  width: 100%;
+  height: 70%;
+}
+
+.work-box-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.work-box-text {
+  font-family: calibri;
+  font-size: 1rem;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+
+
+.work-type {
+  font-family: 'Montserrat';
+  width: 150px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #242733;
+  padding: 10px 15px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.work-box:hover {
+  transform: translateY(-15px);
+  transition: all ease 0.7s;
+}
+
+.work-box-buttons {
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
+  
+}
+
+.work-btn-1 {
+  width: 125px;
+  height: 30px;
+  align-items: center;
+  background-color: #6532e6;
+  border-radius: 6px;
+  color: white;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.work-btn-1:hover {
+    background-color: #ffffff;
+    transition: all ease 0.4s;
+    color: #000266;
+} 
+
+
+@media(max-width: 1190px) {
+    .service-box {
+        flex-grow: 1;
+      }
+    
+    .service-box-img img {
+    object-fit: cover;
+    }
+}
+
+@media(max-width:400px) {
+    /* Cards.js */
+    .service-box {
+      width: 100%;
+      height: 400px;
+    }
+  }
+  
+  

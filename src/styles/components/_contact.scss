@@ -1,0 +1,57 @@
+/* 
+-----------------------------------------
+Contact Section Styling
+-----------------------------------------
+*/
+.contact {
+    background-color: #333646;
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 30px 0px;
+  }
+  
+  .contact h3 {
+    font-size: 2.5rem;
+    margin: 20px;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  /* Contact Form Button */
+  .contact-input {
+    width: 400px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+  }
+  
+  /* Input for the contact section */
+  .contact-input input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #242425;
+  }
+  
+  .contact-input a {
+    width: 200px;
+    height: 35px;
+    background-color: #1db096;
+    color: #ffffff;
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }

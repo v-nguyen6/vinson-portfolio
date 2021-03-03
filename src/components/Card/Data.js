@@ -2,23 +2,23 @@
 const Data =[
   {
     // declare strings to variables for the props
-    stype: "React",
+    stype: "Portfolio Site",
     simage: '{image1}',
-    sdescription: "React Native is an open-source mobile application framework created by facebook. It is used to develop applications for Android, MacOS, Web, Windows, and UMP by enabling developers to use React's framework along with native platform capabilites",
+    sdescription: "This portfolio was designed and developed as a platform to showcase my overall development and design skills that I learned within the TWD program, built using React.",
   },
 
   {
     // declare strings to variables for the props
-    stype: "Django",
+    stype: "React Movie Database",
     simage: '{image2}',
-    sdescription: "Django is a python based free and open-source web framework that follows model-template views architectural pattern. It is manitained by the Django software an American independant organization established as a 501 non-profit",
+    sdescription: "A movie database app that allows users to search movies, gather information and add favourite movies. Developed using React to create a dynamic site that also utilizes the API from The Movie Database (TMDb).",
   },
 
   {
     // declare strings to variables for the props
-    stype: "Front-End",
+    stype: "Ecommerce Site",
     simage: '{image3}',
-    sdescription: "Front End Web development is the practise of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data",
+    sdescription: "Etoile is an ecommerce site that sells custom designed clothing that allows consumers to have the ability to upload their own design for production. The site was based upon and built using WordPress and Woocommerce.",
   },
 
 ];

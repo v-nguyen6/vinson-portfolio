@@ -1,0 +1,28 @@
+/*
+-----------------------------------------
+Footer Section Styling
+-----------------------------------------
+*/
+
+.footer {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer-logo {
+    width: 30px;
+}
+
+.footer-name {
+   position: relative;
+   bottom: 1%;
+}
+
+.social-media-links a {
+    padding-left: 10px;
+    justify-content: space-between;
+}

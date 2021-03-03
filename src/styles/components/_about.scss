@@ -1,0 +1,93 @@
+/* 
+-----------------------------------------
+About Section Styling
+-----------------------------------------
+*/
+.about {
+    width:100%;
+    height: 100vh;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #000266;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    color: #797979;
+  }
+  
+  .about-text span {
+    color: #000266;
+    text-transform: uppercase;
+  }
+  
+  .about-text button { 
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #000266;
+  }
+  
+  /* Hover animation for about section button*/
+  .about-text button:hover {
+    background-color: #d0ff00;
+    transition: all ease 0.3s;
+    color: #000266;
+  }
+  
+  .about-model img {
+    height: 500px;
+  }
+  
+/* 
+-----------------------------------------
+Media Queries
+-----------------------------------------
+*/
+
+@media(max-width: 1190px) {
+  .about-model img{
+    height: 400px;
+  }
+
+}
+
+@media(max-width: 970px) {
+  .about-model {
+    display: none;
+  }
+
+  .about {
+    justify-content: center;
+    /* moves the about heading text and shifts up to dissapear */
+    padding-top: 0px;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about-text h1 {
+    font-size: 4rem;
+  }
+}

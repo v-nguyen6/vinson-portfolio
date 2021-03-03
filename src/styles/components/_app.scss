@@ -1,0 +1,37 @@
+/*
+-----------------------------------------
+General Page Styling
+-----------------------------------------
+*/
+/*body font*/
+body {
+    margin: 0;
+    padding: 0;
+    /* Main background color*/
+    background-color: #333646;
+    font-family: 'Montserrat', 'BioRhyme', calibri;
+}
+
+/* used to select all elements*/
+* {
+  /* used to make sure to include padding and border within overall styles to create consistency in box sizing*/
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+// allows for smooth scrolling when jumping between sections
+html {
+  scroll-behavior: smooth;
+}

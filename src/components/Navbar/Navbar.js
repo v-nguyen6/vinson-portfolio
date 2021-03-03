@@ -1,30 +1,31 @@
 import React from 'react';
-
+import logo from '../../images/logo.png'
 function Navbar() {
     return (
       <nav>
         <a href="#" className="logo">
-          Web Developer
+          <img src={logo} alt="Logo"/>
         </a>
-        
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
 
+        {/*Allows Hamburger Menu to appear because it is a button*/}
+        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        
+        {/*Hamburger Menu Icon*/}
         <label className="menu-icon" for="menu-btn">
           <span className="nav-icon"></span>
         </label>
-
+        
+        {/*Nav Bar Links*/}
         <ul className="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Portfolio</a></li>
-        </ul>
-
-        <a href="#" className="Hey">henlo!</a>
+          <li><a href="#header" className="nav-effect">Home</a></li>
+          <li><a href="#" className="nav-effect-about">About</a></li>
+          <li><a href="#work" className="nav-effect-work">Work</a></li>
+        </ul> 
 
       </nav>
     )
 }
 
 export default Navbar
+
+
