@@ -45,18 +45,7 @@ Header Section Styling
   white-space: nowrap;
   letter-spacing: 1px;
   animation: 
-    type 0.3s steps(30, end),
     blink-caret .75s step-end infinite; 
-}
-
-// Animation Test for typing effect
-@keyframes type {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
 
 // Animation effect for blinking type
@@ -122,7 +111,7 @@ Header Section Styling
 .header-right {
   position: absolute;
   top: 25%;
-  right: 10%;
+  right: 15%;
   width: 430px;
 }
 

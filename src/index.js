@@ -1,12 +1,14 @@
+// Dependancies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AppRouter from './components/Routers/AppRouter';
+// Includes
 import './styles/styles.scss';
 
 
 ReactDOM.render(
 	<>
-		<App />
+		<AppRouter />
 	</>,
 	document.getElementById('root')
 );

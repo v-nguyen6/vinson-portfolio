@@ -1,7 +1,5 @@
 import React from 'react';
-//import stylesheet
-//import './App.css';
-//import all page components to be displayed through the App.js file
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/Header/Header';
 import Work from './components/Works/Work';
 import Contact from './components/Contact/Contact';

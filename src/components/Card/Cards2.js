@@ -1,6 +1,7 @@
+// Dependencies
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-// make sure to add props to the function
 function Cards2(props) {
     return (
         <div className="work-box">
@@ -19,8 +20,8 @@ function Cards2(props) {
 
             {/*Buttons*/}
             <div className="work-box-buttons">
-              <a href="https://github.com/v-nguyen6/movie-app-v3" className="work-btn-1">View Github</a>
-              <a href="#" className="work-btn-1">Learn More</a>
+              <a href="https://github.com/v-nguyen6/movie-app-v3" className="work-btn-3">View Live</a>
+              <Link className="work-btn-2" to={'/works/react'}>Learn More</Link>
             </div>
 
         </div>

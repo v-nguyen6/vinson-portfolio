@@ -35,8 +35,6 @@ work-box-img {
   line-height: 1.5;
 }
 
-
-
 .work-type {
   font-family: 'Montserrat';
   width: 150px;
@@ -69,7 +67,7 @@ work-box-img {
   width: 125px;
   height: 30px;
   align-items: center;
-  background-color: #6532e6;
+  border: 1.7px solid #ffffff;
   border-radius: 6px;
   color: white;
   justify-content: center;
@@ -80,11 +78,52 @@ work-box-img {
 }
 
 .work-btn-1:hover {
+    background-color: #6532e6;
+    transition: all ease 0.4s;
+    color: #242733;
+    border: 1.7px solid #6532e6;
+} 
+
+.work-btn-3 {
+  width: 125px;
+  height: 30px;
+  align-items: center;
+  border: 1.7px solid #ffffff;
+  border-radius: 6px;
+  color: white;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 34px;
+  margin-right: 20px;
+}
+
+.work-btn-3:hover {
+    background-color: #6532e6;
+    transition: all ease 0.4s;
+    color: #242733;
+    border: 1.7px solid #6532e6;
+} 
+
+.work-btn-2 {
+  width: 125px;
+  height: 30px;
+  align-items: center;
+  background-color: #6532e6;
+  border-radius: 6px;
+  color: white;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.work-btn-2:hover {
     background-color: #ffffff;
     transition: all ease 0.4s;
     color: #000266;
 } 
-
 
 @media(max-width: 1190px) {
     .service-box {

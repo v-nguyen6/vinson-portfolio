@@ -1,5 +1,9 @@
+// Dependencies
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+// Includes
 import logo from '../../images/logo.png'
+
 function Navbar() {
     return (
       <nav>
@@ -17,9 +21,14 @@ function Navbar() {
         
         {/*Nav Bar Links*/}
         <ul className="menu">
-          <li><a href="#header" className="nav-effect">Home</a></li>
-          <li><a href="#" className="nav-effect-about">About</a></li>
-          <li><a href="#work" className="nav-effect-work">Work</a></li>
+          <li>
+            <NavLink className="nav-effect-about" to={'/about'}>About</NavLink>
+            {/*<a href="#header" className="nav-effect">Home</a>*/}
+          </li>
+          <li>
+            {/*<NavLink className="nav-effect-work" to={'/works'}>Works</NavLink>*/}
+            <a href="#work" className="nav-effect-work">Work</a>
+          </li>
         </ul> 
 
       </nav>
