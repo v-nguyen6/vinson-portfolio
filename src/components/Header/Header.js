@@ -1,8 +1,8 @@
 // Dependencies
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
 //includes
 import NavBar from '../NavBar/NavBar';
 
@@ -26,8 +26,8 @@ function Header() {
 
             <Fade bottom big>
               <div className="header-btns">
-                <a href="#" className="btn-1">My Story</a>
-                {/*Make a media query to only show in desktop mode*/}
+                <Link className="btn-1" to={'/about'}>My Story</Link>
+                {/*Make a media query to only show in desktop mode (maybe)*/}
                 <a href="#" className="btn-2">Download Resume</a>
               </div>
             </Fade>

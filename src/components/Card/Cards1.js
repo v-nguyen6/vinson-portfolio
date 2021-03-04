@@ -21,7 +21,7 @@ function Cards1(props) {
             {/*Buttons*/}
             <div className="work-box-buttons">
               <a href="https://github.com/v-nguyen6/vinson-portfolio" className="work-btn-1">View Github</a>
-              <Link className="work-btn-2" to={'/works/portfolio'}>Learn More</Link>
+              <Link className="work-btn-2" to={'/portfolio'}>Learn More</Link>
             </div>
 
         </div>

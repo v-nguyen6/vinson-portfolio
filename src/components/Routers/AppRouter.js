@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Works from '../Works/Works';
-import PortfolioSite from '../Works/PortfolioSite';
-import ReactSite from '../Works/ReactSite';
-import EcommerceSite from '../Works/EcommerceSite';
+import PortfolioSite from '../PortfolioSite/PortfolioSite';
+import ReactSite from '../ReactSite/ReactSite';
+import EcommerceSite from '../EcommerceSite/EcommerceSite';
 
 function AppRouter() {
   return (
@@ -17,9 +17,9 @@ function AppRouter() {
             <Route path={'/'} exact><Home /></Route>
             <Route path={'/about'}><About /></Route>
             <Route path={'/works'}><Works /></Route>
-            <Route path={'/works/portfolio'}><PortfolioSite /></Route>
-            <Route path={'/works/react'}><ReactSite /></Route>
-            <Route path={'/works/etoile'}><EcommerceSite /></Route>
+            <Route path={'/portfolio'}><PortfolioSite /></Route>
+            <Route path={'/react'}><ReactSite /></Route>
+            <Route path={'/etoile'}><EcommerceSite /></Route>
           </Switch>
       </div>
     </Router>
