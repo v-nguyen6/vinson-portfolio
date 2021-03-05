@@ -29,6 +29,11 @@ Portfolio Page Styling
   padding: 115px;
 }
 
+.portfolio-btn {
+  margin-left: -32px;
+  margin-bottom: 50px;
+}
+
 .scope {
   margin-bottom: 50px;
 }
@@ -98,7 +103,6 @@ Portfolio Page Styling
 Media Queries
 -----------------------------------------
 */
-
 @media(max-width: 1250px) {
 
 }
@@ -117,4 +121,23 @@ Media Queries
     width: 300px;
   }
     
+}
+
+@media(max-width: 580px) {
+  .portfolio-content {
+    padding: 30px;
+  }
+
+  .portfolio-wireframes {
+    width: 250px;
+  }
+
+  .site-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+  }
+  
 }

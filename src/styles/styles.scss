@@ -5,24 +5,17 @@
 @import url("https://use.typekit.net/jbp8oya.css");
 /* import google fonts (Montserat)*/ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-/* import google fonts (biorhyme)*/ 
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap');
-
-// Settings
-@import "./base/settings";
 
 // Resets
-@import "./base/reset";
+@import "./base/_reset.scss";
 
 // Components
 @import "./components/_about.scss";
 @import "./components/_app.scss";
 @import "./components/_cards.scss";
 @import "./components/_contact.scss";
-@import "./components/_ecommerce.scss";
 @import "./components/_footer.scss";
 @import "./components/_header.scss";
 @import "./components/_navbar.scss";
 @import "./components/_portfolio.scss";
-@import "./components/_react.scss";
 @import "./components/_works.scss";

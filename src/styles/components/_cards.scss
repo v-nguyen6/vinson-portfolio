@@ -3,7 +3,6 @@
 Cards Section Styling
 -----------------------------------------
 */
-
 .work-box {
   background-color: #333646;
   width: 350px;
@@ -60,7 +59,6 @@ work-box-img {
   position: absolute;
   bottom: 5%;
   left: 8%;
-  
 }
 
 .work-btn-1 {
@@ -125,6 +123,11 @@ work-box-img {
     color: #000266;
 } 
 
+/* 
+-----------------------------------------
+Media Queries
+-----------------------------------------
+*/
 @media(max-width: 1190px) {
     .service-box {
         flex-grow: 1;

@@ -23,6 +23,10 @@ function ReactSite() {
         </div>
 
         <div className="portfolio-content">
+          <div className="portfolio-btn">
+            <a href="https://github.com/v-nguyen6/movie-app-v3" className="work-btn-3">View Github</a>
+          </div>
+
           <Fade right>
             <div className="scope">
               <h2>Scope</h2>

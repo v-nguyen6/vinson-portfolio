@@ -28,7 +28,7 @@ function Header() {
               <div className="header-btns">
                 <Link className="btn-1" to={'/about'}>My Story</Link>
                 {/*Make a media query to only show in desktop mode (maybe)*/}
-                <a href="#" className="btn-2">Download Resume</a>
+                <a href="https://drive.google.com/file/d/10mb12K96qmc1YuHsUBNrIJI8U83VtxlC/view?usp=sharing" className="btn-2">Download Resume</a>
               </div>
             </Fade>
           </div>

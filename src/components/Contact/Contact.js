@@ -5,6 +5,7 @@ function Contact() {
       <div className="contact">
         <h3> Get In Touch</h3>
 
+        
         <div className="contact-input">
           <input type="email" placeholder="youremailhere@mail.com"/>
           <a href="#">Continue</a>

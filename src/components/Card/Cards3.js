@@ -20,7 +20,7 @@ function Cards3(props) {
 
             {/*Buttons*/}
             <div className="work-box-buttons">
-              <a href="https://github.com/v-nguyen6/twd_capstone_project" className="work-btn-3">View Live</a>
+              <a href="https://etoile.bcitwebdeveloper.ca/" className="work-btn-3">View Live</a>
               <Link className="work-btn-2" to={'/etoile'}>Learn More</Link>
             </div>
 

@@ -34,7 +34,11 @@ Footer Section Styling
     transition: 0.4s ease-in-out;
 }
 
-  
+/* 
+-----------------------------------------
+Media Queries
+-----------------------------------------
+*/
 @media (max-width: 600px) {
     .footer-name {
         font-size: 12px;

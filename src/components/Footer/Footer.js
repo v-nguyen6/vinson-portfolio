@@ -11,9 +11,9 @@ function Footer() {
             </a>
 
             <div className="social-media-links">
-                <a href="#">Twitter</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Github</a>
+                <a href="https://twitter.com/vinsondesigns">Twitter</a>
+                <a href="https://www.linkedin.com/in/vinson-nguyen/">LinkedIn</a>
+                <a href="https://github.com/v-nguyen6">Github</a>
             </div>
         </div>
     )
