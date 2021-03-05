@@ -25,6 +25,7 @@ function EcommerceSite(props) {
         <div className="portfolio-content">
           <div className="portfolio-btn">
             <a href="https://github.com/htpwebdesign/etoile" className="work-btn-3">View Github</a>
+            <a href="https://etoile.bcitwebdeveloper.ca/" className="work-btn-3">View Live</a>
           </div>
 
           <Fade right>

@@ -184,3 +184,10 @@ Media Queries
     margin-left: 10px;
   }
 }
+
+@media (max-width: 500px) {
+  nav .menu-icon {
+    position: fixed;
+    right: 20%;
+  }
+}

@@ -60,7 +60,7 @@ function PortfolioSite() {
                 </ul>
               </div>
             </div>
-          </Fade>
+          </Fade>n
 
           <Fade right>
             <div className="research-planning">
