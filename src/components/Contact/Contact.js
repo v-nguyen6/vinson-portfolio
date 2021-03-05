@@ -8,7 +8,7 @@ function Contact() {
         
         <div className="contact-input">
           <input type="email" placeholder="youremailhere@mail.com"/>
-          <a href="#">Continue</a>
+          <a href="mailto:vinsonn@vinsonnguyen.com">Continue</a>
         </div>
 
 
