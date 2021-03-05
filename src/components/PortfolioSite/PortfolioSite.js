@@ -2,18 +2,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 // Components
 import NavWorks from '../NavBar/NavWorks';
 import Footer from '../Footer/Footer';
 // Includes
-import headimg from '../../images/front-portfolio.png';
+import headimg from '../../images/works-portfolio-2.png';
+import portwire1 from '../../images/portfolio-wireframes-1.png';
+import portcolor from '../../images/portfolio-color-palette.png';
+import portdev from '../../images/portfolio-code.png';
 
 function PortfolioSite() {
   return (
     <div>
       <NavWorks />
-      <div className="portfolio">
-
+      <div className="portfolio" id="header">
+        
         <div className="portfolio-header">
           <img src={headimg} alt="Portfolio Header Image"/>
         </div>
@@ -64,6 +68,12 @@ function PortfolioSite() {
             </div>
           </Fade>
 
+          <Flip left>
+            <div className="portfolio-wireframes">
+              <img src={portwire1} alt="Portfolio Wireframes - Home Page"/>
+            </div>
+          </Flip>
+
           <Fade left>
             <div className="design-approach">
               <h2>Design Approach</h2>
@@ -71,6 +81,7 @@ function PortfolioSite() {
                 My goal in my design approach was to try and build upon functionality that can be completed efficiently and effectively in React JS. In this stage of the process it was important to me that the elements that I wanted to create and include in the layout could be mapped out and or visualized as components.
               </p>
               <h3>Color Palette</h3>
+              <img src={portcolor} alt="Portfolio Color Palette"/>
             </div>
           </Fade>
 
@@ -85,6 +96,12 @@ function PortfolioSite() {
             </div>
           </Fade>
 
+          <Flip left>
+            <div className="dev-code">
+            <img src={portdev} alt="Portfolio Development Code"/>
+            </div>
+          </Flip>
+
           <Fade left>
             <div className="challenges-takeaways">
               <h2>Challenges & Takeaways</h2>
@@ -98,7 +115,7 @@ function PortfolioSite() {
 
         <div className="site-btns">
           <Link className="site-btn-1" to={'/etoile'}>Previous Project</Link>
-          <Link className="site-btn-1" to={'/react'}>Next Project</Link>
+          <Link className="site-btn-2" to={'/react'}>Next Project</Link>
         </div>
 
       </div>

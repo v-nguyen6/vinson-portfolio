@@ -44,14 +44,12 @@ nav ul li a {
   border-radius: 2px;
   transition: 0.4s ease-in-out;
   position: relative;
-  //left: 70%;
 }
 
 nav ul li a:hover {
   color: #6532E6;
 }
 
-// hover styling effects for NavBar links 
 nav ul li a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -68,15 +66,11 @@ nav ul li a:after {
 nav ul li a:hover:after {
   width: 100%; 
   left: 0; 
-
 }
 
-// hides check button and icon in the NavBar.js file 
 nav .menu-btn, .menu-icon {
   display: none;
 }
-
-
 
 /* 
 -----------------------------------------

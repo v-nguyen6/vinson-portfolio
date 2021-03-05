@@ -2,23 +2,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 // Components
 import NavWorks from '../NavBar/NavWorks';
 import Footer from '../Footer/Footer';
 // Includes
-import headimg from '../../images/front-moviedb.png';
+import headimg from '../../images/works-filmdex.png';
+import filmdexmock from '../../images/filmdex-mockup.png';
+import portcolor from '../../images/movie-database-color-palette.png';
+import portdev from '../../images/filmdex-code.png';
 
 function ReactSite() {
   return (
     <div>
       <NavWorks />
-      <div className="portfolio">
+      <div className="portfolio" id="header">
 
-        <div className="react-header">
+        <div className="portfolio-header">
           <img src={headimg} alt="React Header Image"/>
         </div>
 
-        <div className="react-content">
+        <div className="portfolio-content">
           <Fade right>
             <div className="scope">
               <h2>Scope</h2>
@@ -77,8 +81,15 @@ function ReactSite() {
                 The Goal was to create a layout which was not only aesthetically pleasing but easy to read and view. We also wanted to incorporate as much details as possible to closely resemble the premade mockups and capture the vibe that it presented. 
               </p>
               <h3>Color Palette</h3>
+              <img src={portcolor} alt="Filmdex Color Palette"/>
             </div>
           </Fade>
+
+          <Flip left>
+            <div className="portfolio-wireframes">
+              <img src={filmdexmock} alt="Portfolio Wireframes - Home Page"/>
+            </div>
+          </Flip>
 
           <Fade right>
             <div className="development">
@@ -89,6 +100,12 @@ function ReactSite() {
               </p>
             </div>
           </Fade>
+
+          <Flip left>
+            <div className="dev-code">
+            <img src={portdev} alt="Portfolio Development Code"/>
+            </div>
+          </Flip>
           
           <Fade left>
             <div className="challenges-takeaways">
@@ -103,7 +120,7 @@ function ReactSite() {
 
         <div className="site-btns">
           <Link className="site-btn-1" to={'/portfolio'}>Previous Project</Link>
-          <Link className="site-btn-1" to={'/etoile'}>Next Project</Link>
+          <Link className="site-btn-2" to={'/etoile'}>Next Project</Link>
         </div>
 
       </div>

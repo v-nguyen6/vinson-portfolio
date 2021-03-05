@@ -3,12 +3,110 @@
 Portfolio Page Styling
 -----------------------------------------
 */
-
 // General Page Styling
 .portfolio h1, h2, h3 {
     color: white;
+    text-transform: uppercase;
 }
 
 .portfolio p, li {
     color: rgba(247, 247, 247, 0.678);
+}
+
+.portfolio-header {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.portfolio-wireframes {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.portfolio-content {
+  padding: 115px;
+}
+
+.scope {
+  margin-bottom: 50px;
+}
+
+.role-stack {
+  margin-bottom: 50px;
+}
+
+.design-approach {
+  margin-bottom: 50px;
+}
+
+.development {
+  margin-bottom: 50px;
+}
+
+.dev-code {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.site-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.site-btn-1 {
+  width: 150px;
+  height: 40px;
+  background-color: #6532E6;
+  border-radius: 10px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 8px;
+  align-content: center;
+}
+
+.site-btn-1:hover {
+  background-color: #ffffff;
+  transition: all ease 0.4s;
+  color: #000266;
+}
+
+.site-btn-2 {
+  width: 150px;
+  height: 40px;
+  background-color: #6532E6;
+  border-radius: 10px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.site-btn-2:hover {
+  background-color: #ffffff;
+  transition: all ease 0.4s;
+  color: #000266;
+}
+
+/* 
+-----------------------------------------
+Media Queries
+-----------------------------------------
+*/
+
+@media(max-width: 1250px) {
+
+}
+
+
+@media(max-width: 700px) {
+  .portfolio-header {
+    width: 400px;
+  }
+    
 }
