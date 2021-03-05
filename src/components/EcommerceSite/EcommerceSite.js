@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer';
 // Includes
 import headimg from '../../images/front-capstone.png';
 
-function EcommerceSite() {
+function EcommerceSite(props) {
   return (
     <div>
       <NavWorks />
@@ -29,6 +29,7 @@ function EcommerceSite() {
                 We also used plugins such as Advanced Custom Fields to add further functionality to the site. The Woocommerce aspect of the site was used to create the overall feel of a real ecommerce site which allowed users 
                 to add products to cart as well as go through the entire ordering and payment process.  
               </p>
+              {props.scope}
             </div>
           </Fade>
           

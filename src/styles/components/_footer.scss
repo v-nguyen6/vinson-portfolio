@@ -3,7 +3,6 @@
 Footer Section Styling
 -----------------------------------------
 */
-
 .footer {
     display: flex;
     padding-left: 20px;
@@ -36,13 +35,10 @@ Footer Section Styling
 }
 
   
-
-
 @media (max-width: 600px) {
     .footer-name {
         font-size: 12px;
      }
-     
 
     .footer-logo {
       width: 70px;

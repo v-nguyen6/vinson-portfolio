@@ -23,7 +23,7 @@ function NavbarAbout() {
         <ul className="menu">
           <li>
             {/*<NavLink className="nav-effect-work" to={'/works'}>Works</NavLink>*/}
-            <a href="#" className="nav-effect-work">Back</a>
+            <NavLink className="nav-effect-work" to={'/'}>Back</NavLink>
           </li>
         </ul> 
       </nav>

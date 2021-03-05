@@ -21,6 +21,10 @@ const Data =[
     sdescription: "Etoile is an ecommerce site that sells custom designed clothing that allows consumers to have the ability to upload their own design for production. The site was based upon and built using WordPress and Woocommerce.",
   },
 
+  {
+    scope:"Etoile is an ecommerce site that sells custom designed clothing that allows consumers to have the ability to upload their own design for production.The site was based upon and built using WordPress and Woocommerce. We created basic pages using the backend of WordPress and used PHP with WordPress specific functions to build custom post types. We also used plugins such as Advanced Custom Fields to add further functionality to the site. The Woocommerce aspect of the site was used to create the overall feel of a real ecommerce site which allowed users to add products to cart as well as go through the entire ordering and payment process.",
+  } 
+
 ];
 
 export default Data;
