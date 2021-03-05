@@ -34,6 +34,27 @@ Portfolio Page Styling
   margin-bottom: 50px;
 }
 
+.work-btn-4 {
+  width: 125px;
+  height: 30px;
+  align-items: center;
+  border: 1.7px solid #ffffff;
+  border-radius: 6px;
+  color: white;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 34px;
+  margin-right: 20px;
+}
+
+.work-btn-4:hover {
+    background-color: #6532e6;
+    transition: all ease 0.4s;
+    color: #242733;
+    border: 1.7px solid #6532e6;
+} 
+
 .scope {
   margin-bottom: 50px;
 }
@@ -139,5 +160,9 @@ Media Queries
     margin-right: 25px;
     margin-bottom: 20px;
   }
-  
+  .work-btn-4 {
+    width: 90px;
+    margin-left: 34px;
+    margin-right: -15px;
+  }
 }
