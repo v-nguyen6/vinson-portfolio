@@ -20,7 +20,7 @@ function Cards2(props) {
 
             {/*Buttons*/}
             <div className="work-box-buttons">
-              <a href="http://vnguyen.bcitwebdeveloper.ca/twd-movie-app/" className="work-btn-3">View Live</a>
+              <a href="http://vinsonnguyen.com/Javascript_Game_Assignment/index.html" className="work-btn-3">View Live</a>
               <Link className="work-btn-2" to={'/react'}>Learn More</Link>
             </div>
 
